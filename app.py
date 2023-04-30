@@ -4,6 +4,7 @@ import json
 
 # Loading environment variables
 import os
+import tiktoken
 from dotenv import load_dotenv
 load_dotenv()
 openai_api_key = os.environ.get('openai_api_key')
